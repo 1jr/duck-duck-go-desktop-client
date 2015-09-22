@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Duck
+		</title>
+    <meta charset="utf-8" />
+		<link href="css/index.css" rel="stylesheet" />
+	</head>
+	<body>
+		<div class="window">
+			<iframe id="iframe" sandbox="allow-scripts allow-forms allow-same-origin" src="https://duckduckgo.com/" onLoad="checkUrl(this.contentWindow.location);"></iframe>
+		</div>
+		<script src="js/index.js"></script>
+		<script>
+		documentReady();
+		</script>
+	</body>
+</html>

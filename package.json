@@ -1,0 +1,23 @@
+{
+	"name": "Duck",
+  "description": "Duck Duck Go Client for Desktop",
+	"homepage": "http://duck.son.one/",
+	"version": "15.8.16",
+	"nodejs": true,
+	"main": "index.html",
+	"window": {
+		"toolbar": false,
+    "title": "Duck",
+		"icon": "img/duck.png",
+		"width": 800,
+    "height": 600,
+		"min_width": 430,
+    "min_height": 300
+	},
+	"engines": {
+    "nw.js": "0.3.0"
+  },
+	"scripts": {
+	  "start": "nw"
+	}
+}
